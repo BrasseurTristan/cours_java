@@ -44,6 +44,6 @@ public class Binary {
         // Affichage du décalage gauche de value2 sans modification de sa valeur
         System.out.println("value2 << 2 : " + Integer.toBinaryString(value2 << 2) +
                 " [" + value2 + " -> " + (value2 << 2) + "]");
-        
+
     }
 }
