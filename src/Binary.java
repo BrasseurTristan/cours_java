@@ -18,13 +18,13 @@ public class Binary {
         // & (AND)    |(OR)    ^(XOR)   ~(NOT)
 
         // Opération NOT (~) : inverse tous les bits de value1
-        System.out.println("NOT - "+ Integer.toBinaryString(~value1));
+        System.out.println(" NOT - "+ Integer.toBinaryString(~value1));
         // Opération AND (&) : garde les bits à 1 seulement si les deux opérandes ont des bits à 1.
-        System.out.println("AND - "+ Integer.toBinaryString( value1 & value2));
+        System.out.println(" AND - "+ Integer.toBinaryString( value1 & value2));
         // Opération OR (|) : met les bits à 1 si au moins un des opérandes a un bit à 1.
-        System.out.println("OR - "+ Integer.toBinaryString( value1 | value2));
+        System.out.println(" OR - "+ Integer.toBinaryString( value1 | value2));
         // Opération XOR (^) : met les bits à 1 si un seul des deux opérandes a un bit à 1 (différence)
-        System.out.println("XOR - "+ Integer.toBinaryString( value1 ^ value2));
+        System.out.println(" XOR - "+ Integer.toBinaryString( value1 ^ value2));
 
         // Les opérateurs de décalage de bits permettent de déplacer les bits vers la gauche ou la droite :
         // << (décalage vers la gauche - left shift) : multiplie par 2^n

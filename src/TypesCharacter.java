@@ -8,6 +8,8 @@ public class TypesCharacter {
         // La syntaxe pour certains caractères spéciaux
         char retourALaLigne = '\n';
         char tabulation = '\t';
+        char slash = '\\';
+        char guillemet = '\'';
 
         // En Java, on utilise UNICODE
         // En UNICODE, 1 caractère = 2 octets
