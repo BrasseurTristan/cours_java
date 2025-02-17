@@ -35,22 +35,22 @@ public class Main {
        * Les 4 types entiers
        */
 
-        //byte = 1 octet → l'intervalle de valeur d'un byte est entre -128 et 127
+        //byte = 1 octet → interval de valeur d'un byte est entre -128 et 127
         byte monOctet = 100;
         System.out.println("Byte :" + monOctet);
         // byte monOctet1 = 128; affiche une erreur !
 
-        // short = 2 octets → l'intervalle de valeur d'un byte est entre -32768 et 32767
+        // short = 2 octets → interval de valeur entre -32768 et 32767
         short monShort = 30000;
         System.out.println("Short :" + monShort);
         // short monShort1 = 32768; affiche une erreur !
 
-        // int = 4 octets → l'intervalle de valeur d'un byte est entre -2 147 483 648 et 2 147 483 647
+        // int = 4 octets → interval de valeur entre -2 147 483 648 et 2 147 483 647
         // Depuis Java 7 on peut utiliser l'underscore pour espacer les grands chiffres.
         int monInt = 1_000_000_000;
         System.out.println("int :" + monInt);
 
-        // long = 8 octets -> l'intervalle de valeur d'un byte est entre -9 223 372 036 854 775 808 et 9 223 372 036 854 775 807
+        // long = 8 octets → interval de valeur entre -9 223 372 036 854 775 808 et 9 223 372 036 854 775 807
         long monLong = 1_000_000_000;
         System.out.println("Long :" + monLong);
         // la constante que l'on tape est typée int ce qui ne permet pas d'écrire un chiffre plus grand que 1 Milliard
