@@ -84,6 +84,20 @@ public class Main {
         int currentValue = 5;
         currentValue += 5; // curentValue = currentValue + 5
 
+        // Incrémentations et decrémentations
 
+        int value = 10;
+        // Affiche 11
+        System.out.println(++a); // incrémentation préfixée => l'incrément est effectué avant l'utilisation de la variable
+        // Affiche 10
+        System.out.println(a++); // incrémentation postfixée => l'incrément est effectué après l'utilisation de la variable
+
+        int part1 = 10;
+        int part2 = 20;
+        int result1 = part1++ + part2++;
+        System.out.println(result1); // Affiche 30
+
+
+        
     }
 }
