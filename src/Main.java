@@ -98,6 +98,8 @@ public class Main {
         System.out.println(result1); // Affiche 30
 
 
-        
+
+
     }
+
 }
