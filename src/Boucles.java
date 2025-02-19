@@ -31,6 +31,15 @@ public class Boucles {
         } while( login.equals( "james" ) == false || password.equals( "007" ) == false );
 
         System.out.println( "Bonjour James, vous êtes connecté !" );
+
+
+        // La boucle for each
+        int [] intArray = { 10, 20, 30, 40, 50 };
+
+        for( int value : intArray ) {
+            System.out.println( value );
+        }
+
     }
-    
+
 }
