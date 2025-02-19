@@ -46,7 +46,7 @@ public class TypeString {
 
         String strFinal2 = String.format("%05d %5.2f", value, value2); // On formate les chaines de caractères
         // "%05d" signifie que l'on veut 5 chiffres au total et que les trous vont être rempli par des 0 (d pour double)
-        // "%5.2f" signifie que l'on veux 5 chiffres au total (le point est compté dedans) et que l'on veux également que 2 chiffres après la virgule.
+        // "%5.2f" signifie que l'on veut 5 chiffres au total (le point est compté dedans) et que l'on veut également que 2 chiffres après la virgule.
         System.out.println(strFinal2);
 
 
@@ -61,6 +61,6 @@ public class TypeString {
 
         // Exemple avec une concaténation dynamique
         String half = "to";          // Chaîne littérale stockée dans le pool de chaînes
-        String str4 = half + half;   // Concaténation dynamique -> crée un nouvel objet en mémoire (hors du pool de chaînes)
+        String str4 = half + half;   // Concaténation dynamique → crée un nouvel objet en mémoire (hors du pool de chaînes)
      }
 }
