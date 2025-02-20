@@ -1,3 +1,5 @@
+package fr.koor.syntaxe;
+
 public class StringOptims {
 
     private static final int LOOP_COUNT = 10_000_000;

@@ -1,3 +1,5 @@
+package fr.koor.syntaxe;
+
 public class TypesCharacter {
     public static void main(String[] args){
 

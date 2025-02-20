@@ -1,3 +1,5 @@
+package fr.koor.syntaxe;
+
 public class TypeTextBlocks {
     public static void main(String[] args) {
 

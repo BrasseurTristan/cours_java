@@ -1,3 +1,5 @@
+package fr.koor.syntaxe;
+
 import java.util.Scanner;
 
 public class Boucles {
@@ -31,7 +33,6 @@ public class Boucles {
         } while( login.equals( "james" ) == false || password.equals( "007" ) == false );
 
         System.out.println( "Bonjour James, vous êtes connecté !" );
-
 
         // La boucle for each
         int [] intArray = { 10, 20, 30, 40, 50 };

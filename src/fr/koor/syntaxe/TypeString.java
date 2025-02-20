@@ -1,3 +1,5 @@
+package fr.koor.syntaxe;
+
 public class TypeString {
     public static void main(String[] args){
 

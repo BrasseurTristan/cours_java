@@ -1,3 +1,5 @@
+package fr.koor.syntaxe;
+
 public class SyntaxeSwitch {
     public static void main(String[] args) {
          // Nouvelle syntaxe pour les switchs depuis la Java 14

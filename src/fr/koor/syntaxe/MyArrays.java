@@ -1,3 +1,5 @@
+package fr.koor.syntaxe;
+
 public class MyArrays {
 
     public static void main(String[] args) {

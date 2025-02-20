@@ -1,3 +1,5 @@
+package fr.koor.syntaxe;
+
 public class TypesFlottants {
     public static void main(String[] args){
 
